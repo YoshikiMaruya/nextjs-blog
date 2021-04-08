@@ -6,6 +6,10 @@ import matter from "gray-matter";
 import renderToString from "next-mdx-remote/render-to-string";
 import hydrate from "next-mdx-remote/hydrate";
 
+interface hydrate {
+  hydrate: string;
+}
+
 interface Props {
   source: Parameters<hydrate>[0];
   data: PostData;
