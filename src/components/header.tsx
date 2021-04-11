@@ -8,7 +8,7 @@ export function Header() {
 
   return (
     <Container>
-      <h1>NextJS Blog</h1>
+      <h1>Yoshikiの技術工房</h1>
       <IconButton aria-label="Toggle dark mode" onClick={toggleColorMode}>
         <IoMdSunny size={28} />
       </IconButton>

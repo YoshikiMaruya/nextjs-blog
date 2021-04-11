@@ -8,7 +8,7 @@ export default function Home() {
       <h2>Home</h2>
     </Container>
   );
-}
+};
 
 export const getStaticProps: GetStaticProps = async () => {
   return {
@@ -22,7 +22,7 @@ const Container = styled.div`
   align-items: center;
 `;
 
-const H2 = styled.h2<{ theme: Theme }>`
+const h2 = styled.h2<{ theme: Theme }>`
   text-align: center;
   text-decoration: underline ${({ theme }) => theme.colors.primary};
 `;
